@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <Product>Bluehill.StringExtensions</Product>
+    <PackageProjectUrl>https://bluehillnuget.github.io/Bluehill.StringExtensions</PackageProjectUrl>
+    <PackageTags>string;extension;bluehill</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/BluehillNuGet/Bluehill.StringExtensions</RepositoryUrl>
+    <AssemblyVersion>1</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+</Project>
